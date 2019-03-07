@@ -36,11 +36,11 @@ table(a[,64])
 a=a[,c(1,64,7,6)]
 colnames(a)=c('id','fab','status','os')
 a$id=gsub('-','.',a$id)
-
+head(a)
 
 # https://tcga.xenahubs.net/download/TCGA.LAML.sampleMap/miRNA_GA_gene.gz
 
- # miRNA mature strand expression RNAseq
+# miRNA mature strand expression RNAseq
 
 # samples 188
 # version 2017-09-08
